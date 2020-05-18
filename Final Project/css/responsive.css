@@ -1,0 +1,15 @@
+@media(max-width: 768px){
+    
+	.slash{
+		display: none;
+	}
+
+	
+}
+
+
+@media only screen and (max-width: 575.98px) and (min-width: 415px) {
+	 /*This Breakpoint Work Between 415px to 575.98px*/
+	
+	
+}

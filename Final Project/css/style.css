@@ -1,0 +1,399 @@
+
+/*Custom*/
+p{
+	font-size: 13px;
+}
+.customButton{
+	background-color: #2D2C31;
+	color: white;
+}
+/** ======================================== **/
+/** ================Home================== **/
+/** ======================================== **/
+#home{
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("../images/iphone-notebook-pen-working-34580.jpg");
+	background-repeat: no-repeat;
+    background-position: center center top;
+    background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+    background-size: cover;
+	border-bottom: 2px solid #28A745;
+}
+/******** Bootsrap Navbar Customization**********/
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 1);
+	border-color: rgba(231, 231, 231, 0);
+}
+.navbar.scrolled{
+    background: black;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;  
+    letter-spacing: 1px;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #82C91E;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navbar-custom .navbar-icon i{
+	font-size: 30px;
+	color:#28A745;
+}
+.navbar-custom a.navbar-brand{
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 5px;
+	float: left;
+	color:#fff;
+}
+
+.navbar-custom a.active {
+    color: #28A745!important;
+    animation: logoPopupFirst 2.3s infinite;
+  	-webkit-animation: logoPopupFirst 2.3s infinite;
+  	-webkit-animation-timing-function: ease-in-out;
+  	animation-timing-function: ease-in-out;
+} 
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover a.slash {
+    color: white;
+}
+
+
+a.heading-text{
+	width: 84px;
+	border-radius: 10px;
+  	animation: logoPopup 2.3s infinite;
+  	-webkit-animation: logoPopup 2.3s infinite;
+  	-webkit-animation-timing-function: ease-in-out;
+  	animation-timing-function: ease-in-out;
+}
+
+@keyframes logoPopup {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  14% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+  }
+
+  28% {
+    -webkit-transform: scale(0.2);
+    transform: scale(0.2);
+  }
+
+  41% {
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+ }
+/**********Adding Animation*********/
+
+.heading{
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 1);
+	border: none;
+	border-radius: 10px;
+  	animation: heading 4.2s infinite ;
+  	-webkit-animation: heading 4.2s infinite;
+  	-webkit-animation-timing-function: ease-in-out;
+  	animation-timing-function: ease-in-out;
+  	
+}
+
+@keyframes heading {
+  	0% {
+  		background-color: rgba(0, 0, 0, .5);
+  	}
+  
+	50% {
+   		background-color: rgba(0, 0, 0, .7);
+  	}
+
+  	75% {
+   		background-color: rgba(0, 0, 0, .9);
+  	}
+
+  	100% {
+   		background-color: rgba(0, 0, 0, 1);
+   		color: rgb(40, 167, 69);
+  	}
+ }
+
+.heading h5.animates{
+	position: absolute;
+	animation: headingTwo 4.2s infinite ;
+  	-webkit-animation: headingTwo 4.2s infinite;
+  	-webkit-animation-timing-function: ease-in-out;
+  	animation-timing-function: ease-in-out;
+}
+@keyframes headingTwo{
+	0% {
+  		left: 15%;
+  		bottom:20px;
+  	}
+  	100% {
+   		right: 15%;
+   		bottom: 20px;
+  	}
+}
+
+/** ======================================== **/
+/** =============About================== **/
+/** ======================================== **/	
+#about {
+	background-color: #fff;
+	overflow: hidden;
+
+}
+
+#about .container-fluid{
+	padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom: 2px solid #28A745;
+}
+.about-left{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+.about-left-text{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	color: #000;
+}
+
+.about-left-text h4{
+	text-align: center;
+	padding: 40px 0 20px 0;
+}
+
+.about-left-text p{
+	padding: 0 50px 15px 50px;
+}
+.about-left-text span.about-icon i{
+	font-size: 30px;
+	color:#fff;
+}
+
+.about-right {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 430px;
+	background-image:url("../images/gray-laptop-computer-showing-html-codes-in-shallow-.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+		-webkit-background-size: 100% 100%;
+		-moz-background-size:100% 100%;
+		-o-background-size:100% 100%;
+    background-size:100% 100%;
+}
+
+
+
+
+
+/** ======================================== **/
+/** ================Project================== **/
+/** ======================================== **/
+
+
+#projects{
+	background-color: #000000;
+	color: #fff;
+	border-bottom: 2px solid #28A745;
+}
+#projects h1{
+	padding-top: 25px;
+}
+
+#projects .carousel-inner img {
+    width: 100%;
+  }
+/** ======================================== **/
+/** ================portfolio================== **/
+/** ======================================== **/
+#portfolio{
+	height: auto;
+	overflow: hidden;
+	background-color: #444444;
+	color: #fff;
+	text-align: left;
+	font-size: 14px;
+	padding: 70px 0px;
+	position: relative;
+	border-bottom: 2px solid #28A745;
+}
+
+
+#portfolio .portfolio-heading h2{
+	text-align: center;
+	font-family: Georgia, serif;
+	color: #000;
+	padding: 50px 0 5px 0;
+}
+
+.portfolio-right{
+	height: 100%;
+}
+
+.portfolio-right h5{
+	padding-top: 10px;
+}
+.portfolio-left{
+	height: 100%;
+}
+
+.portfolio-left img{
+	height :180px;
+	width: 93%;
+}
+
+.portfolio-left-work{
+	position: relative;
+	height: 200px;
+}
+
+.portfolio-layer button{
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translateX(-50%);
+}
+.portfolio-layer{
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 50%;
+	right: 0;
+	bottom: 0;
+	transform: translateX(-50%);
+	height: 180px;
+	width: 93%;
+	background-color: rgba(0,0,0,0.9);
+	display: none;
+}
+
+.portfolio-left-work:hover .portfolio-layer{
+	display: block;
+}
+
+/** ======================================== **/
+/** ================academic================== **/
+/** ======================================== **/
+#academic{
+	height: 100%;
+	background-color: #ffffff;
+	color: #000000;
+	padding-bottom: 0px;
+	border-bottom: 2px solid #28A745;
+}
+
+.academic-heading h2{
+	 font-family: Georgia, serif;
+	 padding: 50px 0 5px 0;
+}
+
+.academic-heading p{
+	font-family: sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.academic-column{
+	text-align: center;
+	border:1px solid #ddd;
+	float:left;
+	border-radius:10px;
+	margin: 25px 0;
+}
+
+.academic-column img{
+	padding:10px;
+	margin:0 auto;
+}
+
+.academic-column h5{
+	padding-top: 10px;
+}
+
+.academic-column p{
+	padding:0;
+	font-size: 14px;
+}
+.iconColor{
+	color:#28A745;
+}
+
+/** ======================================== **/
+/** ================Newsletter================== **/
+/** ======================================== **/
+
+
+#footer {
+	background-color: #444444;
+	overflow: hidden;
+	height: auto;
+}
+
+#footer .container-fluid{
+	padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+}
+
+
+.contact{
+	width: 100%;
+	background-color: #444444;
+}
+
+
+.divider hr{
+	width: 90%;
+	height: 1px;
+	background-color: #28A745;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.mySocial li{
+	display: inline-block;
+}
+
+ul.mySocial li a img{
+	list-style-type: none;
+	width: 42px;
+}
